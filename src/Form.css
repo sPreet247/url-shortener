@@ -30,9 +30,13 @@ input[value] {
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 10%;
   font-size: 20px;
   cursor: pointer;
+  /* position: relative; */
   border-radius: 10px;
   border: none;
   background-color: rgb(105, 236, 175);

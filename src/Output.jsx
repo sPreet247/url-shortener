@@ -5,7 +5,6 @@ import "./Output.css";
 const Output = ({ newUrl, clipboardMessage }) => {
   return (
     <div className="output">
-      <p>Shortened Url:</p>
       <blockquote className="newUrl">
         {newUrl}
         <button

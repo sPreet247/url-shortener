@@ -11,6 +11,7 @@
   box-shadow: 0 5px 5px;
   margin: 5px 15px; */
   height: 100vh;
+
   background-color: rgb(64, 61, 57);
 }
 
@@ -21,7 +22,7 @@
   margin-bottom: 50px;
   font-size: 20px;
   padding: 20px;
-  color: white;
+  color: #06d6a0;
 }
 
 .footer {

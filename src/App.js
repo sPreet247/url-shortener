@@ -1,7 +1,6 @@
 import Clipboard from "clipboard";
 import React, { useState } from "react";
 import "./App.css";
-import Button from "./Button";
 import Form from "./Form";
 import Output from "./Output";
 
@@ -36,12 +35,6 @@ function App() {
     getLink(url);
   };
 
-  const handleReset = () => {
-    setUrl("");
-    setNewUrl("");
-    setClipboardMessage("");
-  };
-
   const [clipboardMessage, setClipboardMessage] = useState("");
   const clippy = new Clipboard(".copy");
   clippy.on("success", () => {
@@ -61,7 +54,7 @@ function App() {
           clipboardMessage={clipboardMessage}
           setClipboardMessage={setClipboardMessage}
         />
-        <Button handleReset={handleReset} />
+
         <div className="footer">
           <h5>Made by Sukhpreet Singh &copy; 2022</h5>
         </div>
