@@ -23,6 +23,7 @@ p {
   font-size: 1.5rem;
   align-self: center;
   font-style: italic;
+  background-color: #fff;
   color: rgb(13, 189, 136);
 }
 .copy {
