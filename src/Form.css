@@ -1,0 +1,43 @@
+.input {
+  display: flex;
+  justify-content: center;
+  padding: 1px 20px;
+  margin-left: 35px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  outline: none;
+}
+
+input[value] {
+  font-size: 10px;
+  outline: none;
+}
+
+.label {
+  margin-right: 15px;
+  display: inline-block;
+  align-self: center;
+  font-size: 20px;
+}
+
+#url {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.btn {
+  width: 10%;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(105, 236, 175);
+}
+
+.btn:hover {
+  background-color: rgb(3, 214, 73);
+}

@@ -1,0 +1,50 @@
+.output {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+p {
+  align-self: center;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.newUrl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 38%;
+  height: 50px;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  margin-left: 2rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  align-self: center;
+  font-style: italic;
+  color: rgb(13, 189, 136);
+}
+.copy {
+  align-self: center;
+  font-size: 30px;
+  position: absolute;
+  top: 25%;
+  right: 2%;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.copy:hover {
+  transform: translateY(3%);
+}
+
+.message {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-left: -2rem;
+  transform: translateY(120%);
+  color: rgb(13, 189, 136);
+}
