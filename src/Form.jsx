@@ -6,7 +6,7 @@ const Form = ({ url, setUrl, handleSubmit }) => {
     <form className="input" onSubmit={handleSubmit}>
       <label htmlFor="url" className="label"></label>
       <input
-        placeholder="Paste your url here"
+        placeholder="Paste Url"
         id="url"
         type="text"
         required
